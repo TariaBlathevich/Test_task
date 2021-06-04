@@ -16,16 +16,23 @@
 4. The discount is independent of the price of the product;
 5. The value of the product.
 
-Max data to testing by Boundary Value Testing  and Equivalence Partitioning :
-{0; 1; 50; 98; 99} -1 %
-{100; 101; 150; 198; 199} - 3 %
-{200; 201; 350; 488; 499} -5%
-{500;501; 550; 600; 1000} - 10 %
-Short data to testing by  Boundary Value Testing
-{0; 1; 99} -1 %
-{100; 101; 198; 199} - 3 %
-{200; 201; 499: 500} -5%
-{500; 501} - 10 %
+Max data to testing by
+Boundary Value Testing  and Equivalence Partitioning :
+{0; 1; 50; 98; 99} -1 %;
 
+{100; 101; 150; 198; 199} - 3 %;
+
+{200; 201; 350; 488; 499} -5%;
+
+{500;501; 550; 600; 1000} - 10 %.
+
+Short data to testing by  Boundary Value Testing
+{0; 1; 99} -1 %;
+
+{100; 101; 198; 199} - 3 %;
+
+{200; 201; 499: 500} -5%;
+
+{500; 501} - 10 %.
 ![image](https://user-images.githubusercontent.com/82774270/120803355-22fb1a00-c54c-11eb-9765-b90536c16c4a.png)
 
