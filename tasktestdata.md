@@ -26,7 +26,8 @@ Boundary Value Testing  and Equivalence Partitioning :
 
 {500;501; 550; 600; 1000} - 10 %.
 
-Short data to testing by  Boundary Value Testing
+Short data to testing by  Boundary Value Testing:
+
 {0; 1; 99} -1 %;
 
 {100; 101; 198; 199} - 3 %;
@@ -34,5 +35,6 @@ Short data to testing by  Boundary Value Testing
 {200; 201; 499: 500} -5%;
 
 {500; 501} - 10 %.
+
 ![image](https://user-images.githubusercontent.com/82774270/120803355-22fb1a00-c54c-11eb-9765-b90536c16c4a.png)
 
