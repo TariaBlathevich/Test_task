@@ -12,27 +12,32 @@
 1. Points can only be an integer;
 2. The machine does not give a discount for 0 points, that is, a discount of 1% can be obtained only if there is a card and at least 1 point on it;
 3. Value at lower bound;
+1-99 = 1%; 100-199 = 3%; 200-499 = 5%; 500+ = 10%
 4. The discount is independent of the price of the product;
 5. The value of the product.
 
-Max data to testing by (Boundary Value Testing) and (Equivalence Partitioning ):
+Max data to testing by Boundary Value Testing  and Equivalence Partitioning :
 {0; 1; 50; 98; 99} -1 %
 {100; 101; 150; 198; 199} - 3 %
 {200; 201; 350; 488; 499} -5%
 {500;501; 550; 600; 1000} - 10 %
+Short data to testing by  Boundary Value Testing
+{0; 1; 99} -1 %
+{100; 101; 198; 199} - 3 %
+{200; 201; 499: 500} -5%
+{500; 501} - 10 %
 
-https://prnt.sc/140e53v
+Point	Discount
+0	none
+1	1%
+99	1%
+100	3%
+101	3%
+199	3%
+200	5%
+201	5%
+499	5%
+500	10%
+501	10%
+![image](https://user-images.githubusercontent.com/82774270/120803355-22fb1a00-c54c-11eb-9765-b90536c16c4a.png)
 
-|Начальная Цена|Количество баллов|Ожидаемая скидка|Итоговая цена|
-|-|-|
-|0|-|
-|1|10(1%)|
-|99|10(1%)|
-|100|30(3%)|
-|101|30(3%)|
-|199|30(3%)|
-|200|50(5%)|
-|201|50(5%)|
-|499|50(5%)|
-|500|100(10%)|
-|501|100(10%)|
