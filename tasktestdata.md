@@ -27,17 +27,5 @@ Short data to testing by  Boundary Value Testing
 {200; 201; 499: 500} -5%
 {500; 501} - 10 %
 
-Point	Discount
-0	none
-1	1%
-99	1%
-100	3%
-101	3%
-199	3%
-200	5%
-201	5%
-499	5%
-500	10%
-501	10%
 ![image](https://user-images.githubusercontent.com/82774270/120803355-22fb1a00-c54c-11eb-9765-b90536c16c4a.png)
 
